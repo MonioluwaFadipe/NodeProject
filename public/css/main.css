@@ -28,3 +28,22 @@ li a{
     padding: 14px 16px;
     text-align: center;
 }
+
+footer{
+    position: absolute;
+    margin-top: 20px;
+    height: 180px;
+    clear: both;
+    background-color: #5d3a3a;
+    color: wheat;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer-div{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+}
