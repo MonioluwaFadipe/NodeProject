@@ -9,9 +9,11 @@ task as jinja in flask*/
 
 var app = express(); //create an object of express
 
+app.listen(8080); //specify port
+
 //create a server
 app.get('/', function(req,res){
-    
+    res.send("Hello"); //send data to the user 
 })
 
 /*the "function" parameter is the callback function
