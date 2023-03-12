@@ -9,12 +9,15 @@ task as jinja in flask*/
 
 var app = express(); //create an object of express
 
+app.use(express.static('public')); //points to the folder location of the static files
+app.set('view engine','ejs');  //specify templating engine
+
 app.listen(8080); //specify port
 
 //create a server
 app.get('/', function(req,res){
-    res.send("Hello"); //send data to the user 
-})
+    res.render('pages/index'); 
+});
 
 /*the "function" parameter is the callback function
 that is going to be used to return something to the user.
