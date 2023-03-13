@@ -23,3 +23,7 @@ app.get('/', function(req,res){
 that is going to be used to return something to the user.
 It takes to arguments "requests" - req and "results" - res
 */
+
+app.get('/nature', function(req, res){
+    res.render('pages/nature')
+})
