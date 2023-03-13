@@ -27,3 +27,13 @@ It takes to arguments "requests" - req and "results" - res
 app.get('/nature', function(req, res){
     res.render('pages/nature')
 })
+
+//url for about page
+app.get('/about',function(req, res){
+    res.render('pages/about')
+})
+
+//url for contact page
+app.get('/contact',function(req, res){
+    res.render('pages/contact')
+})
