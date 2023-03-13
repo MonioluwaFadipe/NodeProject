@@ -47,3 +47,11 @@ footer{
     text-align: center;
     padding-left: 10px;
 }
+
+.main-div{
+    margin-top: 50px;
+}
+
+#main-img{
+    width: 100%;
+}
